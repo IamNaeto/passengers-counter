@@ -1,12 +1,12 @@
-let counter = document.querySelector(".count")
-let alertInfo = document.querySelector(".info")
-let increaseBtn = document.querySelector(".increase")
-let decreaseBtn = document.querySelector(".decrease")
-let resetBtn = document.querySelector(".reset")
-let entries = document.querySelector(".entry")
-let saveBtn = document.querySelector(".save")
-let clearBtn = document.querySelector('.clear')
-console.log(counter)
+const counter = document.querySelector(".count")
+const alertInfo = document.querySelector(".info")
+const increaseBtn = document.querySelector(".increase")
+const decreaseBtn = document.querySelector(".decrease")
+const resetBtn = document.querySelector(".reset")
+const entries = document.querySelector(".entry")
+const saveBtn = document.querySelector(".save")
+const clearBtn = document.querySelector('.clear')
+
 let count = 0
 
 function increase(){
