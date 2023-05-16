@@ -41,7 +41,7 @@ function prevEntry(){
 
 function clearEntry(){
     entries.textContent = "";
-    entries.textContent = "Previous Entries : "
+    entries.textContent = "Saved Entries : "
     firstEntryMade = false;
 }
 increaseBtn.onclick = increase
