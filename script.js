@@ -44,6 +44,7 @@ function clearEntry(){
     entries.textContent = "Saved Entries : "
     firstEntryMade = false;
 }
+
 increaseBtn.onclick = increase
 decreaseBtn.onclick = decrease
 resetBtn.onclick = reset
